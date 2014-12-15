@@ -37,53 +37,55 @@ while ( <$readFile> ){
         if ( $info[0] eq "M1" ) {
             if ( $info[1] ne "0.000" ) {
                 #count the number of the wires
-                $wireNum[1] = $wireNum[1] + 1 ;
+                $wireNum[1] ++ ;
                 #add to the total length of the wires
                 $wireLen[1] += $info[1] ;
+                #check if 0 has been taken account into calculation
+                #print $info[1] . "\n" ;
             }
         } elsif ( $info[0] eq "M2" ) {
             if ( $info[1] ne "0.000" ) {
-                $wireNum[2] = $wireNum[1] + 1 ;
+                $wireNum[2] ++ ;
                 $wireLen[2] += $info[1] ;
             }
         } elsif ( $info[0] eq "M3" ) {
             if ( $info[1] ne "0.000" ) {
-                $wireNum[3] = $wireNum[1] + 1 ;
+                $wireNum[3] ++ ;
                 $wireLen[3] += $info[1] ;
             }
         } elsif ( $info[0] eq "M4" ) {
             if ( $info[1] ne "0.000" ) {
-                $wireNum[4] = $wireNum[1] + 1 ;
+                $wireNum[4] ++ ;
                 $wireLen[4] += $info[1] ;
             }
         } elsif ( $info[0] eq "M5" ) {
             if ( $info[1] ne "0.000" ) {
-                $wireNum[5] = $wireNum[1] + 1 ;
+                $wireNum[5] ++ ;
                 $wireLen[5] += $info[1] ;
             }
         } elsif ( $info[0] eq "M6" ) {
             if ( $info[1] ne "0.000" ) {
-                $wireNum[6] = $wireNum[1] + 1 ;
+                $wireNum[6] ++ ;
                 $wireLen[6] += $info[1] ;
             }
         } elsif ( $info[0] eq "M7" ) {
             if ( $info[1] ne "0.000" ) {
-                $wireNum[7] = $wireNum[1] + 1 ;
+                $wireNum[7] ++ ;
                 $wireLen[7] += $info[1] ;
             }
         } elsif ( $info[0] eq "M8" ) {
             if ( $info[1] ne "0.000" ) {
-                $wireNum[8] = $wireNum[1] + 1 ;
+                $wireNum[8] ++ ;
                 $wireLen[8] += $info[1] ;
             }
         } elsif ( $info[0] eq "M9" ) {
             if ( $info[1] ne "0.000" ) {
-                $wireNum[9] = $wireNum[1] + 1 ;
+                $wireNum[9] ++ ;
                 $wireLen[9] += $info[1] ;
             }
         } elsif ( $info[0] eq "M10" ) {
             if ( $info[1] ne "0.000" ) {
-                $wireNum[10] = $wireNum[1] + 1 ;
+                $wireNum[10] ++ ;
                 $wireLen[10] += $info[1] ;
             }
         }
