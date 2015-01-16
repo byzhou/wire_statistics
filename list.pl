@@ -39,47 +39,47 @@ while ( <$readFile> ){
         } elsif ( $info[0] eq "M2" ) {
             if ( $info[1] ne "0.000" ) {
                 print $writeFile2 $info[1] ;
-                print $writeFile1 "\n" ;
+                print $writeFile2 "\n" ;
             }
         } elsif ( $info[0] eq "M3" ) {
             if ( $info[1] ne "0.000" ) {
                 print $writeFile3 $info[1] ;
-                print $writeFile1 "\n" ;
+                print $writeFile3 "\n" ;
             }
         } elsif ( $info[0] eq "M4" ) {
             if ( $info[1] ne "0.000" ) {
                 print $writeFile4 $info[1] ;
-                print $writeFile1 "\n" ;
+                print $writeFile4 "\n" ;
             }
         } elsif ( $info[0] eq "M5" ) {
             if ( $info[1] ne "0.000" ) {
                 print $writeFile5 $info[1] ;
-                print $writeFile1 "\n" ;
+                print $writeFile5 "\n" ;
             }
         } elsif ( $info[0] eq "M6" ) {
             if ( $info[1] ne "0.000" ) {
                 print $writeFile6 $info[1] ;
-                print $writeFile1 "\n" ;
+                print $writeFile6 "\n" ;
             }
         } elsif ( $info[0] eq "M7" ) {
             if ( $info[1] ne "0.000" ) {
                 print $writeFile7 $info[1] ;
-                print $writeFile1 "\n" ;
+                print $writeFile7 "\n" ;
             }
         } elsif ( $info[0] eq "M8" ) {
             if ( $info[1] ne "0.000" ) {
                 print $writeFile8 $info[1] ;
-                print $writeFile1 "\n" ;
+                print $writeFile8 "\n" ;
             }
         } elsif ( $info[0] eq "M9" ) {
             if ( $info[1] ne "0.000" ) {
                 print $writeFile9 $info[1] ;
-                print $writeFile1 "\n" ;
+                print $writeFile9 "\n" ;
             }
         } elsif ( $info[0] eq "M10" ) {
             if ( $info[1] ne "0.000" ) {
                 print $writeFile10 $info[1] ;
-                print $writeFile1 "\n" ;
+                print $writeFile10 "\n" ;
             }
         }
     }#end of if
